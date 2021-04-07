@@ -7,7 +7,15 @@ const HomeScreen = () => {
     return (
 
         <>
-            <h1>Vivid Theory blogs</h1>
+            
+            <div id="brand" align="left">
+                <img src="https://vividtheory.blob.core.windows.net/assignment/vtlogo.svg" alt="VT Logo" width="200" height="150"/>
+            </div>
+                
+            <div id="brandName" align="center" >
+                <h1>Vivid Theory mini blog</h1>
+                <strong>A Full Stack Challenge</strong>
+            </div>
             <Row>
                 {blogs.map((blog) =>(
                     <Col sm={12} md={6} lg={4} xl={3} >
