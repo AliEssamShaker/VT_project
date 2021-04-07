@@ -1,34 +1,40 @@
 const blogs = [
 
     {
-        _id:'1',
+        
         name:'pic1',
-        image:'/images/pic1.jpg'
+        image:'/images/pic1.jpg', 
+        description: 'Proin volutpat tellus non fermentum tristique. Sed et nulla non magna faucibus facilisis ac quis metus. Phasellus sit amet justo in justo faucibus scelerisque eu at tellus. Vestibulum dapibus mauris sit amet turpis tincidunt faucibus. Quisque nunc lectus, sodales ut nunc quis, viverra tempor orci. Vivamus bibendum tortor ac lacinia tincidunt. Donec vel tempus lacus, eu ullamcorper arcu. Donec tempus leo eget massa pulvinar, dictum eleifend libero laoreet. Nulla suscipit faucibus orci eget lobortis. Vivamus malesuada rhoncus ipsum sed commodo.'
     },
     {
-        _id:'2',
+        
         name:'pic2',
-        image:'/images/pic2.jpg'
+        image:'/images/pic2.jpg',
+        description: 'Proin volutpat tellus non fermentum tristique. Sed et nulla non magna faucibus facilisis ac quis metus. Phasellus sit amet justo in justo faucibus scelerisque eu at tellus. Vestibulum dapibus mauris sit amet turpis tincidunt faucibus. Quisque nunc lectus, sodales ut nunc quis, viverra tempor orci. Vivamus bibendum tortor ac lacinia tincidunt. Donec vel tempus lacus, eu ullamcorper arcu. Donec tempus leo eget massa pulvinar, dictum eleifend libero laoreet. Nulla suscipit faucibus orci eget lobortis. Vivamus malesuada rhoncus ipsum sed commodo.'
     },
     {
-        _id:'3',
+        
         name:'pic3',
-        image:'/images/pic3.jpg'
+        image:'/images/pic3.jpg',
+        description: 'Proin volutpat tellus non fermentum tristique. Sed et nulla non magna faucibus facilisis ac quis metus. Phasellus sit amet justo in justo faucibus scelerisque eu at tellus. Vestibulum dapibus mauris sit amet turpis tincidunt faucibus. Quisque nunc lectus, sodales ut nunc quis, viverra tempor orci. Vivamus bibendum tortor ac lacinia tincidunt. Donec vel tempus lacus, eu ullamcorper arcu. Donec tempus leo eget massa pulvinar, dictum eleifend libero laoreet. Nulla suscipit faucibus orci eget lobortis. Vivamus malesuada rhoncus ipsum sed commodo.'
     },
     {
-        _id:'4',
+        
         name:'pic4',
-        image:'/images/pic4.jpg'
+        image:'/images/pic4.jpg',
+        description: 'Proin volutpat tellus non fermentum tristique. Sed et nulla non magna faucibus facilisis ac quis metus. Phasellus sit amet justo in justo faucibus scelerisque eu at tellus. Vestibulum dapibus mauris sit amet turpis tincidunt faucibus. Quisque nunc lectus, sodales ut nunc quis, viverra tempor orci. Vivamus bibendum tortor ac lacinia tincidunt. Donec vel tempus lacus, eu ullamcorper arcu. Donec tempus leo eget massa pulvinar, dictum eleifend libero laoreet. Nulla suscipit faucibus orci eget lobortis. Vivamus malesuada rhoncus ipsum sed commodo.'
     },
     {
-        _id:'5',
+        
         name:'pic5',
-        image:'/images/pic5.jpg'
+        image:'/images/pic5.jpg',
+        description: 'Proin volutpat tellus non fermentum tristique. Sed et nulla non magna faucibus facilisis ac quis metus. Phasellus sit amet justo in justo faucibus scelerisque eu at tellus. Vestibulum dapibus mauris sit amet turpis tincidunt faucibus. Quisque nunc lectus, sodales ut nunc quis, viverra tempor orci. Vivamus bibendum tortor ac lacinia tincidunt. Donec vel tempus lacus, eu ullamcorper arcu. Donec tempus leo eget massa pulvinar, dictum eleifend libero laoreet. Nulla suscipit faucibus orci eget lobortis. Vivamus malesuada rhoncus ipsum sed commodo.'
     },
     {
-        _id:'6',
+        
         name:'pic6',
-        image:'/images/pic6.jpg'
+        image:'/images/pic6.jpg',
+        description: 'Proin volutpat tellus non fermentum tristique. Sed et nulla non magna faucibus facilisis ac quis metus. Phasellus sit amet justo in justo faucibus scelerisque eu at tellus. Vestibulum dapibus mauris sit amet turpis tincidunt faucibus. Quisque nunc lectus, sodales ut nunc quis, viverra tempor orci. Vivamus bibendum tortor ac lacinia tincidunt. Donec vel tempus lacus, eu ullamcorper arcu. Donec tempus leo eget massa pulvinar, dictum eleifend libero laoreet. Nulla suscipit faucibus orci eget lobortis. Vivamus malesuada rhoncus ipsum sed commodo.'
     },
 ]
 
