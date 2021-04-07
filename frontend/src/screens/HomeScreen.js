@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import Blog from '../components/Blog'
-import blogs from '../blogs'
+import axios from 'axios'
 
 const HomeScreen = () => {
+
+    const [blogs, setBlogs] = useState([])
+
+    useEffect(() => {
+        const fetchBlogs = async () => {
+            const {data} = await axios.get('/api/blogs')
+
+            setBlogs(data)
+        }
+
+        fetchBlogs()
+
+    }, [])
+
     return (
 
         <>
