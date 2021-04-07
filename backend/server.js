@@ -1,6 +1,6 @@
-const express = require('express')
-const dotenv = require('dotenv')
-const blogs = require('./data/blogs')
+import express from 'express'
+import dotenv from 'dotenv'
+import blogs from './data/blogs.js'
 
 
 dotenv.config()
