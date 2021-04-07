@@ -1,5 +1,9 @@
 const express = require('express')
+const dotenv = require('dotenv')
 const blogs = require('./data/blogs')
+
+
+dotenv.config()
 
 const app = express()
 
@@ -16,4 +20,6 @@ app.get('/api/blogs/:id', (req, res) => {
     res.json(blog)   
 })
 
-app.listen(0909, console.log('server running on port 0909'))
+const PORT = process.env.PORT || 7878
+
+app.listen(PORT, console.log(`server running on port ${PORT}`))

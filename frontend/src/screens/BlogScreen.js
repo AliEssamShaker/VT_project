@@ -16,7 +16,7 @@ const BlogScreen = ({match}) => {
 
         fetchBlog()
 
-    }, [])
+    }, [match])
     
     return (
         <>
