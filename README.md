@@ -1,4 +1,4 @@
-This is the little yet awesome web app. Really enjoyed planning it out, organizing and finding good resources and coding it up !! I used mongoDB Atlas to have the data on a cloud as opposed to having it on my system, it does not really matter since this is a pretty small dataset anyway, but meeh why not.
+This is the little yet awesome web app. Really enjoyed planning it out, organizing and finding good resources and coding it up !! I used mongoDB Atlas to have the data on a cloud as opposed to having it on my system, it does not really matter since this is a pretty small dataset anyway, but meeh why not. This is also a SPA so its performance is pretty decent.
 
 
 <img width="1440" alt="VT_ss1" src="https://user-images.githubusercontent.com/59261797/114055784-48baba00-984e-11eb-9f45-c90fc8778de6.png">
