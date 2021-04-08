@@ -6,7 +6,7 @@ const Blog = ({blog}) => {
     return (
         <Card className='my-3 p-3 rounded' >
             <Link to={`/blog/${blog._id}`}>
-                <Card.Img src={blog.image} variant='top' />
+                <Card.Img  style={{height: "200px", width:"100%"}} src={blog.image} variant='top' />
             </Link>
 
             <Card.Body>

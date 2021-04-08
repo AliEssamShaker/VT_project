@@ -8,6 +8,7 @@ const Header = () => {
             <Navbar bg="light" variant="light" expand="lg">
                 <Container>
                     <LinkContainer to="/">
+                        
                         <Navbar.Brand >Vivid Theory</Navbar.Brand>
                     </LinkContainer>
                     
