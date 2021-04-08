@@ -20,7 +20,8 @@ router.get('/:id', asyncHandler(async(req, res) => {
         if (blog){
             res.json(blog)
         } else{
-            res.status(404).json({message: 'Sorry ! Blog not found !'})
+            res.status(404)
+            throw new Error('Blog not found')
         }
 
 
