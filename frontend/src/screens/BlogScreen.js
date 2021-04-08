@@ -25,13 +25,16 @@ const BlogScreen = ({match}) => {
             </Link>
             <Row>
                 <Col md={6}>
-                    <Image src={blog.image} alt={blog.name} fluid/>
+                    <Image style={{height: "400px", width:"100%"}} src={blog.image} alt={blog.name} fluid/>
                 </Col>
 
                 <Col>
-                    <ListGroup variant='flush'>
+                    <ListGroup.Item variant='flush'>
                         <h3>{blog.name}</h3>
-                    </ListGroup>
+                    </ListGroup.Item>
+                    <ListGroup.Item>
+                        Description: {blog.description}
+                    </ListGroup.Item>
                 
                 </Col>
             </Row>

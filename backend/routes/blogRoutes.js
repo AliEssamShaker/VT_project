@@ -24,7 +24,6 @@ router.get('/:id', asyncHandler(async(req, res) => {
             throw new Error('Blog not found')
         }
 
-
     res.json(blog)   
 }))
 

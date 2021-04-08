@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap'
 
 const Blog = ({blog}) => {
     return (
-        <Card className='my-3 p-3 rounded' >
+        <Card className='my-2 p-2 rounded' >
             <Link to={`/blog/${blog._id}`}>
                 <Card.Img  style={{height: "200px", width:"100%"}} src={blog.image} variant='top' />
             </Link>
