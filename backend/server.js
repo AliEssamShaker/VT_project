@@ -20,7 +20,6 @@ app.get('/', (req, res) => {
 })
 
 
-app.use('/api/blogs', blogRoutes)
 
 const PORT = process.env.PORT || 5000
 
